@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+.tilte {
+   font-size: 2rem; 
+   color: palevioletred;
+}
+.sub {
+    font-size: 1rem;
+    color: peru;
+}
+@media(max-width: 700px) {
+    body {
+        color: red;
+    }
+}
+@media (orientation: landscape) and (max-width: 600px) {
+    .tilte{
+        color: brown;
+    }
+}
+@media(orientation:portrait), (max-width: 600px) {
+    .subtitle{
+        color: chartreuse;
+    }
+}
